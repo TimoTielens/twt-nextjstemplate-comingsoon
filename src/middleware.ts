@@ -11,6 +11,6 @@ export function middleware(request: NextRequest) {
         }
       })
 
-    response.headers.set('template-from', 'https://github.com/TimoTielens/twt-nextjstemplate')
+    response.headers.set('template-from', 'https://github.com/TimoTielens/twt-nextjstemplate-comingsoon')
     return response
 }
